@@ -1,1 +1,7 @@
 {"level":"info","message":"Addition operation: 10 + 5 = 15","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 124 and 421 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 124 and 421 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 124 and 421 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 124 and 421 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 1240 and 421 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 124 and 421 received for addition","service":"calculator-microservice"}
