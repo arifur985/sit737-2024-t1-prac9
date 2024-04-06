@@ -1,23 +1,13 @@
 // Import the necessary modules
 const express = require("express");
 const winston = require("winston");
+const logger = require('./logger');
 
 // Initialize an Express application
 const app = express();
 
 // Set the port for the server to listen on
 const port = 3040;
-
-// Configure the Winston logger for logging
-const logger = winston.createLogger({
-  level: 'info',
-  format: winston.format.json(),
-  defaultMeta: { service: 'calculate-service' },
-  transports: [
-    new winston.transports.File({ filename: 'error.log', level: 'error' }),
-    new winston.transports.File({ filename: 'combined.log' }),
-  ],
-});
 
 // In non-production environments, also log to the console
 if (process.env.NODE_ENV !== 'production') {
