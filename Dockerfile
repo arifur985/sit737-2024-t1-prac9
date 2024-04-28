@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3040
 
 # Command to run the application
-CMD ["node", "app.js"]
+CMD ["node", "server_get.js"]
